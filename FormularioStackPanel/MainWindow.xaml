@@ -1,0 +1,88 @@
+﻿<Window x:Class="FormularioStackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormularioStackPanel"
+        mc:Ignorable="d"
+        Title="Formulario StackPanel"
+        Height="343.5"
+        Width="797"
+        MinHeight="360"
+        MinWidth="356"
+        MaxWidth="930"
+        Icon="assets/icono.ico">
+    <StackPanel Margin="10">
+        <StackPanel Margin="10"
+                    Height="70">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF57A838"
+                                  Offset="0" />
+                    <GradientStop Color="White"
+                                  Offset="1" />
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap"
+                       Text="Nombre"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       Margin="5,5,5,0" />
+            <TextBox Height="23"
+                     TextWrapping="Wrap"
+                     Margin="5" />
+        </StackPanel>
+        <StackPanel Margin="10"
+                    Height="70">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF849EE4"
+                                  Offset="0.003" />
+                    <GradientStop Color="White"
+                                  Offset="1" />
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap"
+                       Text="Nombre"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       Margin="5,5,5,0" />
+            <TextBox Height="23"
+                     TextWrapping="Wrap"
+                     Margin="5" />
+        </StackPanel>
+        <StackPanel Margin="10"
+                    Height="70">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FFDC3899"
+                                  Offset="0" />
+                    <GradientStop Color="White"
+                                  Offset="1" />
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap"
+                       Text="Nombre"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       Margin="5,5,5,0" />
+            <TextBox Height="23"
+                     TextWrapping="Wrap"
+                     Margin="5"
+                     Width="600"
+                     HorizontalAlignment="Left" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button Content="Aceptar"
+                    Width="100"
+                    Margin="5" />
+            <Button Content="Cancelar"
+                    Width="100"
+                    Margin="5" />
+        </StackPanel>
+    </StackPanel>
+</Window>
